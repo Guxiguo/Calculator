@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="8"
+    android:columnCount="5">
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_columnSpan="5"
+        android:layout_marginLeft="4dp"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_columnSpan="5"
+        android:layout_marginLeft="4dp"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button_detele"
+        android:text="AC"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="26dp"
+        />
+    <Button
+        android:id="@+id/button_tan"
+        android:text="tan"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="26dp"
+        />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:text="1"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="26dp"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:text="4"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="26dp"
+        />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:text="7"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/button0"
+        android:text="0"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/button_sign"
+        android:text="+/-"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="26dp"
+        />
+    <Button
+        android:id="@+id/button_sin"
+        android:text="sin"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="26dp"
+        />
+    <Button
+        android:id="@+id/button2"
+        android:text="2"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="26dp"
+        />
+    <Button
+        android:id="@+id/button5"
+        android:text="5"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="26dp"
+        />
+    <Button
+        android:id="@+id/button8"
+        android:text="8"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="26dp"
+        />
+
+    <Button
+        android:id="@+id/button_point"
+        android:text="."
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="26dp"
+        />
+
+
+    <Button
+        android:id="@+id/button_precent"
+        android:text="%"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="26dp"
+        />
+    <Button
+        android:id="@+id/button_cos"
+        android:text="cos"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="26dp"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:text="3"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="26dp"
+        />
+    <Button
+        android:id="@+id/button6"
+        android:text="6"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="26dp"
+        />
+    <Button
+        android:id="@+id/button9"
+        android:text="9"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="26dp"
+        />
+
+    <Button
+        android:id="@+id/button_equal"
+        android:text="="
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="26dp" />
+
+
+    <Button
+        android:id="@+id/button_retreat"
+        android:text="c"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="26dp"
+        />
+
+    <Button
+        android:id="@+id/button_sqrt"
+        android:layout_columnSpan="2"
+        android:text="√"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/button_jia"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:background="@android:color/holo_purple"
+        android:text="+"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/button_jian"
+        android:layout_width="wrap_content"
+        android:background="@android:color/holo_purple"
+        android:text="-"
+        android:layout_margin="5dp"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/button_cheng"
+        android:text="*"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="26dp"
+        />
+
+    <Button
+        android:id="@+id/button_chu"
+        android:text="/"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_purple"
+        android:textSize="26dp"
+        />
+
+
+</GridLayout>
